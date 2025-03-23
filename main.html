@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crème & Crust Bakery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Verdana, sans-serif;
+      background-color: pink;
+    }
+
+    header {
+      background-color: palevioletred;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header div a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      font-size: 18px;
+    }
+
+    .hero-section {
+      background-image: url('images/bakery.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .content {
+      max-width: 700px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      text-align: center;
+      font-size: 24px;
+      border-radius: 10px;
+    }
+
+    .section-below {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: white;
+    }
+
+    .section-below h2 {
+      font-size: 32px;
+      color: palevioletred;
+    }
+
+    .section-below p {
+      font-size: 20px;
+      color: black;
+    }
+
+    .food {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 20px;
+      padding: 40px 20px;
+      background-color: #f8f8f8;
+      flex-wrap: wrap;
+    }
+
+    .food-item {
+      width: 250px;
+      text-align: center;
+    }
+
+    .food img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .food p {
+      color: palevioletred;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: palevioletred;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Crème & Crust Bakery</h1>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Menu</a>
+      <a href="#">Contact</a>
+    </div>
+  </header>
+
+  <div class="hero-section">
+    <div class="content">
+      Savor the finest pastries and cakes crafted with passion and precision.
+    </div>
+  </div>
+
+  <div class="section-below">
+    <h2>OUR BEST SELLERS</h2>
+    <p>Indulge in our customer favorites, from croissants to macarons.</p>
+  </div>
+
+  <div class="food">
+    <div class="food-item">
+      <img src="images/buttercroissant2.webp" alt="butter croissant">
+      <p>Butter Croissant</p>
+      <p>A flaky, buttery pastry with layers of dough, offering a perfect balance of crispiness and softness. Ideal for breakfast or a snack.</p>
+    </div>
+    <div class="food-item">
+      <img src="images/pastry.jpg" alt="pastry">
+      <p>Hazelnut Pastry</p>
+      <p>A rich pastry filled with creamy hazelnut, offering a nutty flavor and delicate, golden exterior. Perfect for nut lovers.</p>
+    </div>
+    <div class="food-item">
+      <img src="images/Southern-Living_Macarons_025-0e05e0cd226d44609f55ed8bc9cd3a3e.jpg" alt="macarons">
+      <p>Southern-Living Macarons</p>
+      <p>A French treat made of almond flour, with a crisp shell and chewy interior, filled with flavors like chocolate or fruit. Elegant and indulgent.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Crème & Crust Bakery. All rights reserved.</p>
+    <p>Mobile Details- +91 8963512122, +91 9685663214</p>
+    <p>Follow us on:
+      <a href="#" style="text-decoration: none;color: white;">Facebook</a> |
+      <a href="#" style="text-decoration: none;color: white;">Instagram</a> |
+      <a href="#" style="text-decoration: none;color: white;">Twitter</a>
+    </p>
+  </footer>
+</body>
+</html>
